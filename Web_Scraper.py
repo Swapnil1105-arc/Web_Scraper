@@ -113,7 +113,7 @@ def save_to_json(quotes: list[Quote], filename: str) -> None:
 
 if __name__ == "__main__":
     quotes = scrape_all_pages(BASE_URL)
-    save_to_json(quotes, "quotes.json")
-
+    save_to_json(quotes, "quotes.json") #to store the data in "json" format
+    # save_to_csv(quotes, "quotes.csv")   to store the data in "csv" format
     print(f"\nTotal quotes scraped: {len(quotes)}")
     
