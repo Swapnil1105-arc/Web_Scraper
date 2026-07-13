@@ -1,4 +1,3 @@
-# Level 3 Task 1
 
 from __future__ import annotations
 import csv
